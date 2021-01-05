@@ -1,0 +1,34 @@
+package com.concertcare.sivatask.model;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.ElementCollection;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Entity
+@Table(name="cc_user")
+public class User implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	@Id
+	@GeneratedValue
+	@Column(name="user_id")
+	private Integer userId;
+	@Column(name="user_name")
+	private String userName;
+	@Column(name="user_password")
+	private String userPassword;
+	@Column(name="user_mail")
+	private String userMail;
+	@Column(name="user_contact")
+	private Long userContact;
+	@ElementCollection(fetch = FetchType.EAGER)
+	@Column(name="user_roles")
+	private List<String> userRoles;
+
+}

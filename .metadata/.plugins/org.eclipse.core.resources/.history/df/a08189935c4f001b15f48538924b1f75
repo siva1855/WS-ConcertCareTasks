@@ -1,0 +1,9 @@
+package com.concertcare.sivatask.restcontroller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/user")
+public class UserRestController {
+
+}

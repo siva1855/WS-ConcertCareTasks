@@ -1,0 +1,19 @@
+package com.concertcare.sivatask.serviceimpl;
+
+import org.springframework.stereotype.Service;
+
+import com.concertcare.sivatask.model.User;
+import com.concertcare.sivatask.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+	@Override
+	public Integer saveUser(User user) {
+
+		return null;
+	}
+
+}

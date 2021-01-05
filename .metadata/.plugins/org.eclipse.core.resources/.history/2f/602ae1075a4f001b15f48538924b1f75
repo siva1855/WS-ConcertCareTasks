@@ -1,0 +1,18 @@
+package com.concertcare.sivatask.model;
+
+import java.io.Serializable;
+import java.util.List;
+
+public class User implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private Integer userId;
+	private String userName;
+	private String userPassword;
+	private String userMail;
+	private Long userContact;
+	@ElementCollection(fetch = FetchType.EAGER)
+	private List<String> userRoles;
+
+}

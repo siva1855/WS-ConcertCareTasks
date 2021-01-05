@@ -1,0 +1,28 @@
+package com.concertcare.sivatask.serviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.concertcare.sivatask.model.User;
+import com.concertcare.sivatask.repsitory.UserRepository;
+import com.concertcare.sivatask.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+
+	@Autowired
+	private BCryptPasswordEncoder bCryptPasswordEncoder;
+
+	@Override
+	public Integer saveUser(User user) {
+		String password = user.getUserPassword();
+		password = bCryptPasswordEncoder.encode(password);
+		user.setUserPassword(password);
+		return userRepository.save(user).getUserId();
+	}
+
+}

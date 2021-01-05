@@ -1,0 +1,5 @@
+package com.concertcare.sivatask.config;
+
+public class AppConfig {
+
+}

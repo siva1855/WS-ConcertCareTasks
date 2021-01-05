@@ -1,0 +1,43 @@
+package com.concertcare.sivatask.model;
+
+import java.io.Serializable;
+
+public class UserRequest implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
+	private String uname;
+	private String upassword;
+
+	public UserRequest() {
+		super();
+	}
+
+	public UserRequest(String uname, String upassword) {
+		super();
+		this.uname = uname;
+		this.upassword = upassword;
+	}
+
+	public String getUname() {
+		return uname;
+	}
+
+	public void setUname(String uname) {
+		this.uname = uname;
+	}
+
+	public String getUpassword() {
+		return upassword;
+	}
+
+	public void setUpassword(String upassword) {
+		this.upassword = upassword;
+	}
+
+	@Override
+	public String toString() {
+		return "UserRequest [uname=" + uname + ", upassword=" + upassword + "]";
+	}
+
+}

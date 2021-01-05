@@ -1,0 +1,13 @@
+package com.concertcare.sivatask;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Task1JwtTokenCustomResponseApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Task1JwtTokenCustomResponseApplication.class, args);
+	}
+
+}

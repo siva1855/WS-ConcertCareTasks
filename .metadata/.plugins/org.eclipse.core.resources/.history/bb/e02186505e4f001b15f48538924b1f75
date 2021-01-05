@@ -1,0 +1,11 @@
+package com.concertcare.sivatask.utils;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class JwtUtils {
+	
+	@Value("${app.secret}")
+	private String secret;
+
+}

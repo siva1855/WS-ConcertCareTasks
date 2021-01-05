@@ -1,0 +1,9 @@
+package com.concertcare.sivatask.repsitory;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.concertcare.sivatask.model.User;
+
+public interface UserRepository extends JpaRepository<User, Integer>{
+
+}
