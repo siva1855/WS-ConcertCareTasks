@@ -1,0 +1,43 @@
+logging:
+  file:
+    name: ./logs/ZuulProxyAPIGateWay.log
+  pattern:
+    console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
+    file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread]  %-5level %logger{36} -%msg%n"'
+server:
+  port: 8080
+spring:
+  application:
+    name: CC-ZUULPROXYAPIGATEWAY
+###########################################################################
+  cloud:
+    gateway:
+      routes:
+      - id: CC-USERSERVICE
+        uri: lb://CC-USERSERVICE
+        predicates:
+            - Path=/userservice/**
+        filters:
+           - name: CircuitBreaker
+             args:
+               name: CC-USERSERVICE
+               fallbackuri: forward:/userservicefallback
+######################################EEEEEEEEEEE######################################
+      - id: CC-DEPARTMENTSERVICE
+        uri: lb://CC-DEPARTMENTSERVICE
+        predicates:
+            - Path=/departmentservice/**
+        filters:
+            - name: CircuitBreaker
+              args:
+                name: CC-DEPARTMENTSERVICE
+                fallbackuri: forward:/departmentservicefallback
+                
+########################################################################                
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 4000
