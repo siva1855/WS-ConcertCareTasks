@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Edit Employee</title>
+</head>
+<body>
+	<div align="center">
+		<h1>Edit Employee</h1>
+		<br />
+		<form action="#" th:action="@{/save}" th:object="${employee}"
+			method="post">
+			<table border="0">
+				<tr>
+					<td>Employee ID:</td>
+					<td><input type="text" th:field="*{employeeId}" readonly="readonly" />
+					</td>
+				</tr>
+				<tr>
+					<td>Employee Name:</td>
+					<td><input type="text" th:field="*{employeeName}" /></td>
+				</tr>
+				<tr>
+					<td>Employee Designation:</td>
+					<td><input type="text" th:field="*{employeeDesignation}" /></td>
+				</tr>
+				<tr>
+					<td>Employee Contact:</td>
+					<td><input type="text" th:field="*{employeeContact}" /></td>
+				</tr>
+				<tr>
+					<td>Employee Mail:</td>
+					<td><input type="text" th:field="*{employeeMail}" /></td>
+				</tr>
+				<tr>
+					<td>Employee Address:</td>
+					<td><input type="text" th:field="*{employeeAddress}" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button type="submit">Save</button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
