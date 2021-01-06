@@ -74,13 +74,14 @@ public class TestStudentRestController {
 		assertEquals("application/json", response.getContentType());
 		assertNotNull(response.getContentAsString());
 	}
+
 	// test update operation
 	@Test
 	public void testUpdate() throws Exception {
 		// a.create HttpRequest
 		MockHttpServletRequestBuilder request = MockMvcRequestBuilders.put("/rest/student/update")
-				.contentType(MediaType.APPLICATION_JSON).content(
-						"{\"studentId\":2,\"studentName\":\"siva\",\"studentFee\":99.99,\"studentCourse\":\"HIB\"}");
+				.contentType(MediaType.APPLICATION_JSON)
+				.content("{\"studentId\":2,\"studentName\":\"siva\",\"studentFee\":99.99,\"studentCourse\":\"HIB\"}");
 		// b. execute and get Result
 		MvcResult result = mockMvc.perform(request).andReturn();
 		// c. Read Response
@@ -92,6 +93,7 @@ public class TestStudentRestController {
 		}
 
 	}
+
 	// test removeOneStudentDate() opertaion
 	@Test
 	public void testRemove() throws Exception {
