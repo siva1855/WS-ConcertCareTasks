@@ -1,0 +1,488 @@
+"2021-01-06 08:39:29 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -The following profiles are active: dev
+""2021-01-06 08:39:30 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-06 08:39:30 [main]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=1062df1c-3dff-3eb2-9feb-7834e110cf8b
+""2021-01-06 08:39:31 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8761 (http)
+""2021-01-06 08:39:31 [main]  INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-01-06 08:39:31 [main]  INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.41]
+""2021-01-06 08:39:31 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-01-06 08:39:31 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1536 ms
+""2021-01-06 08:39:31 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 08:39:31 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 08:39:31 [main]  INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@16b3c905
+""2021-01-06 08:39:31 [main]  INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+""2021-01-06 08:39:32 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 08:39:32 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 08:39:32 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 08:39:32 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 08:39:32 [main]  WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+""2021-01-06 08:39:32 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 08:39:32 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 08:39:33 [main]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-06 08:39:33 [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-06 08:39:33 [main]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-06 08:39:33 [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-06 08:39:33 [main]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-06 08:39:33 [main]  INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+""2021-01-06 08:39:33 [main]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1609902573969 with initial instances count: 0
+""2021-01-06 08:39:34 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+""2021-01-06 08:39:34 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://localhost:8761/eureka/]
+""2021-01-06 08:39:34 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 08:39:34 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 08:39:34 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 08:39:34 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 08:39:34 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://localhost:8761/eureka/
+""2021-01-06 08:39:34 [main]  INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+""2021-01-06 08:39:34 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initialized
+""2021-01-06 08:39:34 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-06 08:39:34 [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application UNKNOWN with eureka with status UP
+""2021-01-06 08:39:34 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Setting the eureka configuration..
+""2021-01-06 08:39:34 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka data center value eureka.datacenter is not set, defaulting to default
+""2021-01-06 08:39:34 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka environment value eureka.environment is not set, defaulting to test
+""2021-01-06 08:39:34 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -isAws returned false
+""2021-01-06 08:39:34 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Initialized server context
+""2021-01-06 08:39:34 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+""2021-01-06 08:39:34 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+""2021-01-06 08:39:34 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+""2021-01-06 08:39:34 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8761 (http) with context path ''
+""2021-01-06 08:39:34 [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8761
+""2021-01-06 08:39:34 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -Started Eureka Server
+""2021-01-06 08:39:34 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -Started Task3EurekaServiceRegistryApplication in 6.356 seconds (JVM running for 7.858)
+""2021-01-06 08:39:34 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -*****Eureka Service Registry Application Has Started******
+""2021-01-06 08:39:50 [RMI TCP Connection(2)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-06 08:39:50 [RMI TCP Connection(2)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application UNKNOWN with eureka with status DOWN
+""2021-01-06 08:39:50 [RMI TCP Connection(2)-127.0.0.1]  INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+""2021-01-06 08:39:50 [RMI TCP Connection(2)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shutting down ...
+""2021-01-06 08:39:51 [RMI TCP Connection(2)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shut down
+""2021-01-06 08:39:51 [RMI TCP Connection(2)-127.0.0.1]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-01-06 08:39:51 [RMI TCP Connection(2)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+""2021-01-06 08:39:51 [RMI TCP Connection(2)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+""2021-01-06 09:08:52 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -The following profiles are active: dev
+""2021-01-06 09:08:53 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-06 09:08:53 [main]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=1062df1c-3dff-3eb2-9feb-7834e110cf8b
+""2021-01-06 09:08:53 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8761 (http)
+""2021-01-06 09:08:53 [main]  INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-01-06 09:08:53 [main]  INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.41]
+""2021-01-06 09:08:53 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-01-06 09:08:53 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1506 ms
+""2021-01-06 09:08:53 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 09:08:53 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 09:08:53 [main]  INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@49fdbe2b
+""2021-01-06 09:08:54 [main]  INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+""2021-01-06 09:08:54 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 09:08:54 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 09:08:54 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 09:08:54 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 09:08:55 [main]  WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+""2021-01-06 09:08:55 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 09:08:55 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 09:08:55 [main]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-06 09:08:56 [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-06 09:08:56 [main]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-06 09:08:56 [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-06 09:08:56 [main]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-06 09:08:56 [main]  INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+""2021-01-06 09:08:56 [main]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1609904336216 with initial instances count: 0
+""2021-01-06 09:08:56 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+""2021-01-06 09:08:56 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://localhost:8761/eureka/]
+""2021-01-06 09:08:56 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 09:08:56 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 09:08:56 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 09:08:56 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 09:08:56 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://localhost:8761/eureka/
+""2021-01-06 09:08:56 [main]  INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+""2021-01-06 09:08:56 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initialized
+""2021-01-06 09:08:56 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-06 09:08:56 [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application UNKNOWN with eureka with status UP
+""2021-01-06 09:08:56 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Setting the eureka configuration..
+""2021-01-06 09:08:56 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka data center value eureka.datacenter is not set, defaulting to default
+""2021-01-06 09:08:56 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka environment value eureka.environment is not set, defaulting to test
+""2021-01-06 09:08:56 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -isAws returned false
+""2021-01-06 09:08:56 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Initialized server context
+""2021-01-06 09:08:56 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+""2021-01-06 09:08:56 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+""2021-01-06 09:08:56 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+""2021-01-06 09:08:56 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8761 (http) with context path ''
+""2021-01-06 09:08:56 [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8761
+""2021-01-06 09:08:56 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -Started Eureka Server
+""2021-01-06 09:08:57 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -Started Task3EurekaServiceRegistryApplication in 5.945 seconds (JVM running for 7.063)
+""2021-01-06 09:08:57 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -*****Eureka Service Registry Application Has Started******
+""2021-01-06 09:09:15 [http-nio-8761-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-01-06 09:09:15 [http-nio-8761-exec-1]  INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+""2021-01-06 09:09:15 [http-nio-8761-exec-1]  INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 10 ms
+""2021-01-06 09:09:41 [http-nio-8761-exec-9]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=false)
+""2021-01-06 09:09:42 [http-nio-8761-exec-10]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=true)
+""2021-01-06 09:09:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:10:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:11:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:12:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:13:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:14:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:15:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:16:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:17:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:18:56 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application UNKNOWN with eureka with status DOWN
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shutting down ...
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shut down
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+""2021-01-06 09:19:18 [RMI TCP Connection(13)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+""2021-01-06 09:37:37 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -The following profiles are active: dev
+""2021-01-06 09:37:38 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-06 09:37:38 [main]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=1062df1c-3dff-3eb2-9feb-7834e110cf8b
+""2021-01-06 09:37:38 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8761 (http)
+""2021-01-06 09:37:38 [main]  INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-01-06 09:37:38 [main]  INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.41]
+""2021-01-06 09:37:39 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-01-06 09:37:39 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1689 ms
+""2021-01-06 09:37:39 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 09:37:39 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 09:37:39 [main]  INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@16b3c905
+""2021-01-06 09:37:39 [main]  INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+""2021-01-06 09:37:39 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 09:37:39 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 09:37:40 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 09:37:40 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 09:37:40 [main]  WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+""2021-01-06 09:37:40 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 09:37:40 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 09:37:40 [main]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-06 09:37:41 [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-06 09:37:41 [main]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-06 09:37:41 [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-06 09:37:41 [main]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-06 09:37:41 [main]  INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+""2021-01-06 09:37:41 [main]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1609906061652 with initial instances count: 0
+""2021-01-06 09:37:41 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+""2021-01-06 09:37:41 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://localhost:8761/eureka/]
+""2021-01-06 09:37:41 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-01-06 09:37:41 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+""2021-01-06 09:37:41 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 09:37:41 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 09:37:41 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 09:37:41 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 09:37:42 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://localhost:8761/eureka/
+""2021-01-06 09:37:42 [main]  INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+""2021-01-06 09:37:42 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initialized
+""2021-01-06 09:37:42 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-06 09:37:42 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 388 ms
+""2021-01-06 09:37:42 [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application UNKNOWN with eureka with status UP
+""2021-01-06 09:37:42 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Setting the eureka configuration..
+""2021-01-06 09:37:42 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka data center value eureka.datacenter is not set, defaulting to default
+""2021-01-06 09:37:42 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka environment value eureka.environment is not set, defaulting to test
+""2021-01-06 09:37:42 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -isAws returned false
+""2021-01-06 09:37:42 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Initialized server context
+""2021-01-06 09:37:42 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+""2021-01-06 09:37:42 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+""2021-01-06 09:37:42 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+""2021-01-06 09:37:42 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8761 (http) with context path ''
+""2021-01-06 09:37:42 [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8761
+""2021-01-06 09:37:42 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -Started Eureka Server
+""2021-01-06 09:37:42 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -Started Task3EurekaServiceRegistryApplication in 6.227 seconds (JVM running for 7.32)
+""2021-01-06 09:37:42 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -*****Eureka Service Registry Application Has Started******
+""2021-01-06 09:38:21 [http-nio-8761-exec-2]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=false)
+""2021-01-06 09:38:21 [http-nio-8761-exec-3]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=true)
+""2021-01-06 09:38:42 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:38:46 [http-nio-8761-exec-5]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9090 with status UP (replication=false)
+""2021-01-06 09:38:47 [http-nio-8761-exec-6]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9090 with status UP (replication=true)
+""2021-01-06 09:39:42 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 09:40:42 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+""2021-01-06 09:40:44 [RMI TCP Connection(6)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-06 09:40:44 [RMI TCP Connection(6)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application UNKNOWN with eureka with status DOWN
+""2021-01-06 09:40:44 [RMI TCP Connection(6)-127.0.0.1]  INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+""2021-01-06 09:40:44 [RMI TCP Connection(6)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2021-01-06 09:40:44 [RMI TCP Connection(6)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shutting down ...
+""2021-01-06 09:40:45 [RMI TCP Connection(6)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shut down
+""2021-01-06 09:40:45 [RMI TCP Connection(6)-127.0.0.1]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-01-06 09:40:45 [RMI TCP Connection(6)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+""2021-01-06 09:40:45 [RMI TCP Connection(6)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+""2021-01-06 10:12:05 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -The following profiles are active: dev
+""2021-01-06 10:12:06 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-06 10:12:06 [main]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=1062df1c-3dff-3eb2-9feb-7834e110cf8b
+""2021-01-06 10:12:06 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8761 (http)
+""2021-01-06 10:12:06 [main]  INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-01-06 10:12:06 [main]  INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.41]
+""2021-01-06 10:12:06 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-01-06 10:12:06 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1552 ms
+""2021-01-06 10:12:06 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 10:12:06 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 10:12:06 [main]  INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@16b3c905
+""2021-01-06 10:12:07 [main]  INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+""2021-01-06 10:12:07 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 10:12:07 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 10:12:07 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 10:12:07 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 10:12:08 [main]  WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+""2021-01-06 10:12:08 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 10:12:08 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 10:12:08 [main]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-06 10:12:09 [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-06 10:12:09 [main]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-06 10:12:09 [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-06 10:12:09 [main]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-06 10:12:09 [main]  INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+""2021-01-06 10:12:09 [main]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1609908129302 with initial instances count: 0
+""2021-01-06 10:12:09 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+""2021-01-06 10:12:09 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://localhost:8761/eureka/]
+""2021-01-06 10:12:09 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 10:12:09 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 10:12:09 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 10:12:09 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 10:12:09 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://localhost:8761/eureka/
+""2021-01-06 10:12:09 [main]  INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+""2021-01-06 10:12:09 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initialized
+""2021-01-06 10:12:09 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-06 10:12:09 [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application UNKNOWN with eureka with status UP
+""2021-01-06 10:12:09 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Setting the eureka configuration..
+""2021-01-06 10:12:09 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka data center value eureka.datacenter is not set, defaulting to default
+""2021-01-06 10:12:09 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka environment value eureka.environment is not set, defaulting to test
+""2021-01-06 10:12:09 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -isAws returned false
+""2021-01-06 10:12:09 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Initialized server context
+""2021-01-06 10:12:09 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+""2021-01-06 10:12:09 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+""2021-01-06 10:12:09 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+""2021-01-06 10:12:09 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8761 (http) with context path ''
+""2021-01-06 10:12:09 [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8761
+""2021-01-06 10:12:10 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -Started Eureka Server
+""2021-01-06 10:12:10 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -Started Task3EurekaServiceRegistryApplication in 6.058 seconds (JVM running for 7.164)
+""2021-01-06 10:12:10 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -*****Eureka Service Registry Application Has Started******
+""2021-01-06 10:12:11 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-01-06 10:12:11 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+""2021-01-06 10:12:11 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 5 ms
+""2021-01-06 10:13:05 [http-nio-8761-exec-2]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=false)
+""2021-01-06 10:13:06 [http-nio-8761-exec-3]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=true)
+""2021-01-06 10:13:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:14:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:15:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:16:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:17:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:17:25 [http-nio-8761-exec-10]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9090 with status UP (replication=false)
+""2021-01-06 10:17:25 [http-nio-8761-exec-1]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9090 with status UP (replication=true)
+""2021-01-06 10:18:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:19:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:20:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:21:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:22:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:23:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:24:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+""2021-01-06 10:25:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:26:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:27:09 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 5
+""2021-01-06 10:27:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+""2021-01-06 10:28:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:29:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:30:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:31:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:32:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:33:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:34:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:35:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:36:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:37:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:38:09 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application UNKNOWN with eureka with status DOWN
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shutting down ...
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  c.netflix.servo.monitor.StatsMonitor -Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  c.netflix.servo.monitor.StatsMonitor -Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  c.netflix.servo.monitor.StatsMonitor -Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  c.netflix.servo.monitor.StatsMonitor -Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shut down
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+""2021-01-06 10:38:26 [RMI TCP Connection(31)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+""2021-01-06 10:55:35 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -The following profiles are active: dev
+""2021-01-06 10:55:36 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-06 10:55:37 [main]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=1062df1c-3dff-3eb2-9feb-7834e110cf8b
+""2021-01-06 10:55:37 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8761 (http)
+""2021-01-06 10:55:37 [main]  INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-01-06 10:55:37 [main]  INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.41]
+""2021-01-06 10:55:37 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-01-06 10:55:37 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1875 ms
+""2021-01-06 10:55:37 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 10:55:37 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 10:55:37 [main]  INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@16b3c905
+""2021-01-06 10:55:38 [main]  INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+""2021-01-06 10:55:38 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 10:55:38 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 10:55:38 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 10:55:38 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 10:55:39 [main]  WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+""2021-01-06 10:55:39 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 10:55:39 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 10:55:39 [main]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-06 10:55:40 [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-06 10:55:40 [main]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-06 10:55:40 [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-06 10:55:40 [main]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-06 10:55:40 [main]  INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+""2021-01-06 10:55:40 [main]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1609910740217 with initial instances count: 0
+""2021-01-06 10:55:40 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+""2021-01-06 10:55:40 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://localhost:8761/eureka/]
+""2021-01-06 10:55:40 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 10:55:40 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 10:55:40 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 10:55:40 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 10:55:40 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://localhost:8761/eureka/
+""2021-01-06 10:55:40 [main]  INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+""2021-01-06 10:55:40 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initialized
+""2021-01-06 10:55:40 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-06 10:55:40 [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application UNKNOWN with eureka with status UP
+""2021-01-06 10:55:40 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Setting the eureka configuration..
+""2021-01-06 10:55:40 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka data center value eureka.datacenter is not set, defaulting to default
+""2021-01-06 10:55:40 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka environment value eureka.environment is not set, defaulting to test
+""2021-01-06 10:55:40 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -isAws returned false
+""2021-01-06 10:55:40 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Initialized server context
+""2021-01-06 10:55:40 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+""2021-01-06 10:55:40 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+""2021-01-06 10:55:40 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+""2021-01-06 10:55:40 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8761 (http) with context path ''
+""2021-01-06 10:55:40 [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8761
+""2021-01-06 10:55:40 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -Started Eureka Server
+""2021-01-06 10:55:40 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -Started Task3EurekaServiceRegistryApplication in 6.33 seconds (JVM running for 7.442)
+""2021-01-06 10:55:41 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -*****Eureka Service Registry Application Has Started******
+""2021-01-06 10:56:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:57:06 [http-nio-8761-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-01-06 10:57:06 [http-nio-8761-exec-1]  INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+""2021-01-06 10:57:06 [http-nio-8761-exec-1]  INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 6 ms
+""2021-01-06 10:57:06 [http-nio-8761-exec-2]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=false)
+""2021-01-06 10:57:07 [http-nio-8761-exec-3]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=true)
+""2021-01-06 10:57:32 [http-nio-8761-exec-5]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9092 with status UP (replication=false)
+""2021-01-06 10:57:33 [http-nio-8761-exec-6]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9092 with status UP (replication=true)
+""2021-01-06 10:57:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:58:09 [http-nio-8761-exec-7]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9091 with status UP (replication=false)
+""2021-01-06 10:58:10 [http-nio-8761-exec-8]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9091 with status UP (replication=true)
+""2021-01-06 10:58:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 10:59:08 [http-nio-8761-exec-5]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9092 with status DOWN (replication=false)
+""2021-01-06 10:59:08 [http-nio-8761-exec-6]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9092 with status DOWN (replication=true)
+""2021-01-06 10:59:11 [http-nio-8761-exec-9]  INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9092 (replication=false)
+""2021-01-06 10:59:11 [http-nio-8761-exec-3]  WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9092
+""2021-01-06 10:59:11 [http-nio-8761-exec-3]  INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): CC-DEPARTMENTSERVICE - ANNAPURNA:CC-DEPARTMENTSERVICE:9092
+""2021-01-06 10:59:11 [TaskBatchingWorker-target_localhost-4]  WARN  c.n.eureka.cluster.ReplicationTask -The replication of task CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9092:Cancel@localhost failed with response code 404
+""2021-01-06 10:59:11 [TaskBatchingWorker-target_localhost-4]  WARN  c.n.eureka.cluster.PeerEurekaNode -CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9092:Cancel@localhost: missing entry.
+""2021-01-06 10:59:14 [http-nio-8761-exec-5]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 with status UP (replication=false)
+""2021-01-06 10:59:14 [http-nio-8761-exec-6]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 with status UP (replication=true)
+""2021-01-06 10:59:17 [http-nio-8761-exec-7]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9091 with status DOWN (replication=false)
+""2021-01-06 10:59:17 [http-nio-8761-exec-8]  INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 (replication=false)
+""2021-01-06 10:59:17 [http-nio-8761-exec-9]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9091 with status DOWN (replication=true)
+""2021-01-06 10:59:17 [http-nio-8761-exec-9]  WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091
+""2021-01-06 10:59:17 [http-nio-8761-exec-9]  INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): CC-DEPARTMENTSERVICE - ANNAPURNA:CC-DEPARTMENTSERVICE:9091
+""2021-01-06 10:59:17 [TaskBatchingWorker-target_localhost-4]  WARN  c.n.eureka.cluster.ReplicationTask -The replication of task CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091:Cancel@localhost failed with response code 404
+""2021-01-06 10:59:17 [TaskBatchingWorker-target_localhost-4]  WARN  c.n.eureka.cluster.PeerEurekaNode -CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091:Cancel@localhost: missing entry.
+""2021-01-06 10:59:20 [http-nio-8761-exec-1]  INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9091 (replication=false)
+""2021-01-06 10:59:20 [http-nio-8761-exec-4]  WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9091
+""2021-01-06 10:59:20 [http-nio-8761-exec-4]  INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): CC-USERSERVICE - ANNAPURNA:CC-USERSERVICE:9091
+""2021-01-06 10:59:20 [TaskBatchingWorker-target_localhost-0]  WARN  c.n.eureka.cluster.ReplicationTask -The replication of task CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9091:Cancel@localhost failed with response code 404
+""2021-01-06 10:59:20 [TaskBatchingWorker-target_localhost-0]  WARN  c.n.eureka.cluster.PeerEurekaNode -CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9091:Cancel@localhost: missing entry.
+""2021-01-06 10:59:23 [http-nio-8761-exec-6]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9092 with status UP (replication=false)
+""2021-01-06 10:59:24 [http-nio-8761-exec-7]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9092 with status UP (replication=true)
+""2021-01-06 10:59:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:00:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:01:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:02:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:03:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+""2021-01-06 11:04:40 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:05:29 [RMI TCP Connection(17)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-06 11:05:29 [RMI TCP Connection(17)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application UNKNOWN with eureka with status DOWN
+""2021-01-06 11:05:29 [RMI TCP Connection(17)-127.0.0.1]  INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+""2021-01-06 11:05:29 [RMI TCP Connection(17)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2021-01-06 11:05:29 [RMI TCP Connection(17)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shutting down ...
+""2021-01-06 11:05:30 [RMI TCP Connection(17)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shut down
+""2021-01-06 11:05:30 [RMI TCP Connection(17)-127.0.0.1]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-01-06 11:05:30 [RMI TCP Connection(17)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+""2021-01-06 11:05:30 [RMI TCP Connection(17)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+""2021-01-06 11:06:01 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -The following profiles are active: dev
+""2021-01-06 11:06:02 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-06 11:06:02 [main]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=1062df1c-3dff-3eb2-9feb-7834e110cf8b
+""2021-01-06 11:06:02 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8761 (http)
+""2021-01-06 11:06:02 [main]  INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-01-06 11:06:02 [main]  INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.41]
+""2021-01-06 11:06:03 [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-01-06 11:06:03 [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1529 ms
+""2021-01-06 11:06:03 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 11:06:03 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 11:06:03 [main]  INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1ab14636
+""2021-01-06 11:06:03 [main]  INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+""2021-01-06 11:06:03 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 11:06:03 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 11:06:03 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 11:06:03 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 11:06:04 [main]  WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+""2021-01-06 11:06:04 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-06 11:06:04 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-06 11:06:04 [main]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-06 11:06:05 [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-06 11:06:05 [main]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-06 11:06:05 [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-06 11:06:05 [main]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-06 11:06:05 [main]  INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+""2021-01-06 11:06:05 [main]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1609911365481 with initial instances count: 0
+""2021-01-06 11:06:05 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+""2021-01-06 11:06:05 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://localhost:8761/eureka/]
+""2021-01-06 11:06:05 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-06 11:06:05 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-06 11:06:05 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-06 11:06:05 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-06 11:06:05 [main]  INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://localhost:8761/eureka/
+""2021-01-06 11:06:05 [main]  INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+""2021-01-06 11:06:06 [main]  INFO  c.n.e.DefaultEurekaServerContext -Initialized
+""2021-01-06 11:06:06 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-06 11:06:06 [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application UNKNOWN with eureka with status UP
+""2021-01-06 11:06:06 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Setting the eureka configuration..
+""2021-01-06 11:06:06 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka data center value eureka.datacenter is not set, defaulting to default
+""2021-01-06 11:06:06 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka environment value eureka.environment is not set, defaulting to test
+""2021-01-06 11:06:06 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -isAws returned false
+""2021-01-06 11:06:06 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerBootstrap -Initialized server context
+""2021-01-06 11:06:06 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+""2021-01-06 11:06:06 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+""2021-01-06 11:06:06 [Thread-10]  INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+""2021-01-06 11:06:06 [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8761 (http) with context path ''
+""2021-01-06 11:06:06 [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8761
+""2021-01-06 11:06:06 [Thread-10]  INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -Started Eureka Server
+""2021-01-06 11:06:06 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -Started Task3EurekaServiceRegistryApplication in 6.169 seconds (JVM running for 7.379)
+""2021-01-06 11:06:06 [main]  INFO  c.c.s.Task3EurekaServiceRegistryApplication -*****Eureka Service Registry Application Has Started******
+""2021-01-06 11:06:08 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-01-06 11:06:08 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+""2021-01-06 11:06:08 [RMI TCP Connection(3)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 6 ms
+""2021-01-06 11:06:28 [http-nio-8761-exec-2]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=false)
+""2021-01-06 11:06:29 [http-nio-8761-exec-3]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-CLOUD-CONFIGSERVER/ANNAPURNA:CC-CLOUD-CONFIGSERVER:8081 with status UP (replication=true)
+""2021-01-06 11:06:57 [http-nio-8761-exec-5]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 with status UP (replication=false)
+""2021-01-06 11:06:58 [http-nio-8761-exec-6]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 with status UP (replication=true)
+""2021-01-06 11:07:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:07:24 [http-nio-8761-exec-1]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9092 with status UP (replication=false)
+""2021-01-06 11:07:25 [http-nio-8761-exec-2]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-USERSERVICE/ANNAPURNA:CC-USERSERVICE:9092 with status UP (replication=true)
+""2021-01-06 11:08:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:09:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:10:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:10:29 [http-nio-8761-exec-2]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 with status DOWN (replication=false)
+""2021-01-06 11:10:29 [http-nio-8761-exec-4]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 with status DOWN (replication=true)
+""2021-01-06 11:10:32 [http-nio-8761-exec-5]  INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 (replication=false)
+""2021-01-06 11:10:32 [http-nio-8761-exec-9]  WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091
+""2021-01-06 11:10:32 [http-nio-8761-exec-9]  INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): CC-DEPARTMENTSERVICE - ANNAPURNA:CC-DEPARTMENTSERVICE:9091
+""2021-01-06 11:10:32 [TaskBatchingWorker-target_localhost-1]  WARN  c.n.eureka.cluster.ReplicationTask -The replication of task CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091:Cancel@localhost failed with response code 404
+""2021-01-06 11:10:32 [TaskBatchingWorker-target_localhost-1]  WARN  c.n.eureka.cluster.PeerEurekaNode -CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091:Cancel@localhost: missing entry.
+""2021-01-06 11:11:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:11:26 [http-nio-8761-exec-10]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 with status UP (replication=false)
+""2021-01-06 11:11:27 [http-nio-8761-exec-8]  INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance CC-DEPARTMENTSERVICE/ANNAPURNA:CC-DEPARTMENTSERVICE:9091 with status UP (replication=true)
+""2021-01-06 11:12:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:13:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:14:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:15:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:16:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:17:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:18:06 [Eureka-EvictionTimer]  INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application UNKNOWN with eureka with status DOWN
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shutting down ...
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  c.n.e.DefaultEurekaServerContext -Shut down
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+""2021-01-06 11:18:12 [RMI TCP Connection(15)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+"
