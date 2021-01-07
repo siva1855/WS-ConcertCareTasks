@@ -3,18 +3,18 @@ package com.concertcare.sivatask.restcontroller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.concertcare.sivatask.model.Employee;
 import com.concertcare.sivatask.service.EmployeeService;
 
-@RestController
+@Controller
 public class EmployeeRestController {
 
 	@Autowired
@@ -22,8 +22,8 @@ public class EmployeeRestController {
 
 	@RequestMapping("/")
 	public String viewHomePage(Model model) {
-		List<Employee> listofEmployees = employeeService.getAllEmployees();
-		model.addAttribute("listEmployeesData", listofEmployees);
+		List<Employee> listEmployees = employeeService.getAllEmployees();
+		model.addAttribute("listEmployees", listEmployees);
 		return "index";
 	}
 
@@ -44,7 +44,7 @@ public class EmployeeRestController {
 	public ModelAndView showEditEmployeePage(@PathVariable(name = "employeeId") Integer employeeId) {
 		ModelAndView modelAndView = new ModelAndView("edit_employee");
 		Employee employee = employeeService.getOneEmployee(employeeId);
-		modelAndView.addObject("employeeData", employee);
+		modelAndView.addObject("employee", employee);
 		return modelAndView;
 	}
 

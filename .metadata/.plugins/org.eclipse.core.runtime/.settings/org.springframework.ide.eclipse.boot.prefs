@@ -7,6 +7,7 @@ org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-feign=2
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-gateway=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=5
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=5
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.h2=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=5
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.security=3
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.thymeleaf=1

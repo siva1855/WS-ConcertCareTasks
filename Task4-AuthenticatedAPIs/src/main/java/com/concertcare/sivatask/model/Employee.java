@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "cc_authemployee")
+@Table(name = "cc_auth_employee")
 public class Employee implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -105,4 +105,5 @@ public class Employee implements Serializable {
 				+ ", employeeAddress=" + employeeAddress + "]";
 	}
 
+	
 }
