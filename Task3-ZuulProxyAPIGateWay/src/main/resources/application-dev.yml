@@ -13,25 +13,25 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: CC-USERSERVICE
-        uri: lb://CC-USERSERVICE
+      - id: CC-CONSUMERUSERSERVICE
+        uri: lb://CC-CONSUMERUSERSERVICE
         predicates:
-            - Path=/userservice/**
+            - Path=/consumeruserservice/**
         filters:
            - name: CircuitBreaker
              args:
-               name: CC-USERSERVICE
-               fallbackuri: forward:/userservicefallback
+               name: CC-CONSUMERUSERSERVICE
+               fallbackuri: forward:/consumeruserservicefallback
 ######################################EEEEEEEEEEE######################################
-      - id: CC-DEPARTMENTSERVICE
-        uri: lb://CC-DEPARTMENTSERVICE
+      - id: CC-STUDENTSERVICE
+        uri: lb://CC-STUDENTSERVICE
         predicates:
-            - Path=/departmentservice/**
+            - Path=/studentservice/**
         filters:
             - name: CircuitBreaker
               args:
-                name: CC-DEPARTMENTSERVICE
-                fallbackuri: forward:/departmentservicefallback
+                name: CC-STUDENTSERVICE
+                fallbackuri: forward:/studentservicefallback
                 
 ########################################################################                
 hystrix:
@@ -40,4 +40,4 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 4000
+            timeoutInMilliseconds: 40000

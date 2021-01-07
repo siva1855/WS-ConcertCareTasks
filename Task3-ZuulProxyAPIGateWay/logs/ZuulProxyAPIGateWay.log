@@ -1,0 +1,383 @@
+"2021-01-07 17:22:57 [main]  INFO  c.c.s.Task3ZuulProxyApiGateWayApplication -The following profiles are active: dev
+""2021-01-07 17:22:58 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-07 17:22:58 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+""2021-01-07 17:22:58 [main]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=3da12aeb-3654-31a1-851c-b34f8d42d4a3
+""2021-01-07 17:22:59 [main]  INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-07 17:22:59 [main]  INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-07 17:22:59 [main]  INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-07 17:22:59 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-07 17:22:59 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-07 17:22:59 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-07 17:22:59 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-07 17:22:59 [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [After]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Before]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Between]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Cookie]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Header]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Host]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Method]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Path]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Query]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [ReadBody]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [RemoteAddr]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Weight]
+""2021-01-07 17:23:00 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+""2021-01-07 17:23:01 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-07 17:23:01 [main]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-07 17:23:01 [main]  WARN  o.s.c.c.l.r.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger -You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-07 17:23:01 [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-07 17:23:01 [main]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-07 17:23:01 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-07 17:23:01 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-07 17:23:02 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-07 17:23:02 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-07 17:23:02 [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Disable delta property : false
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Application is null : false
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Application version is -1: true
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -The response status is 200
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 30
+""2021-01-07 17:23:02 [main]  INFO  c.n.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1610020382753 with initial instances count: 3
+""2021-01-07 17:23:02 [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application CC-ZUULPROXYAPIGATEWAY with eureka with status UP
+""2021-01-07 17:23:02 [main]  INFO  c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1610020382758, current=UP, previous=STARTING]
+""2021-01-07 17:23:02 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080: registering service...
+""2021-01-07 17:23:02 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080 - registration status: 204
+""2021-01-07 17:23:03 [main]  INFO  o.s.b.w.e.netty.NettyWebServer -Netty started on port(s): 8080
+""2021-01-07 17:23:03 [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8080
+""2021-01-07 17:23:03 [main]  INFO  c.c.s.Task3ZuulProxyApiGateWayApplication -Started Task3ZuulProxyApiGateWayApplication in 6.985 seconds (JVM running for 8.252)
+""2021-01-07 17:23:03 [main]  INFO  c.c.s.Task3ZuulProxyApiGateWayApplication -*****ZuulProxy APIGateway Application Has Started******
+""2021-01-07 17:26:25 [reactor-http-nio-2]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-CONSUMERUSERSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:26:25 [reactor-http-nio-2]  INFO  c.n.u.c.ShutdownEnabledTimer -Shutdown hook installed for: NFLoadBalancer-PingTimer-CC-CONSUMERUSERSERVICE
+""2021-01-07 17:26:25 [reactor-http-nio-2]  INFO  c.n.loadbalancer.BaseLoadBalancer -Client: CC-CONSUMERUSERSERVICE instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CC-CONSUMERUSERSERVICE,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+""2021-01-07 17:26:25 [reactor-http-nio-2]  INFO  c.n.l.DynamicServerListLoadBalancer -Using serverListUpdater PollingServerListUpdater
+""2021-01-07 17:26:25 [reactor-http-nio-2]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-CONSUMERUSERSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:26:25 [reactor-http-nio-2]  INFO  c.n.l.DynamicServerListLoadBalancer -DynamicServerListLoadBalancer for client CC-CONSUMERUSERSERVICE initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CC-CONSUMERUSERSERVICE,current list of Servers=[ANNAPURNA:9090],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:ANNAPURNA:9090;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@639738b0
+""2021-01-07 17:26:26 [PollingServerListUpdater-0]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-CONSUMERUSERSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:27:43 [RMI TCP Connection(9)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-07 17:27:43 [RMI TCP Connection(9)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application CC-ZUULPROXYAPIGATEWAY with eureka with status DOWN
+""2021-01-07 17:27:43 [RMI TCP Connection(9)-127.0.0.1]  ERROR c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1610020663887, current=DOWN, previous=UP]
+""2021-01-07 17:27:43 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080: registering service...
+""2021-01-07 17:27:43 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080 - registration status: 204
+""2021-01-07 17:27:43 [Thread-9]  INFO  c.n.l.PollingServerListUpdater -Shutting down the Executor Pool for PollingServerListUpdater
+""2021-01-07 17:27:43 [RMI TCP Connection(9)-127.0.0.1]  INFO  c.n.u.c.ShutdownEnabledTimer -Shutdown hook removed for: NFLoadBalancer-PingTimer-CC-CONSUMERUSERSERVICE
+""2021-01-07 17:27:43 [RMI TCP Connection(9)-127.0.0.1]  INFO  c.n.u.c.ShutdownEnabledTimer -Exception caught (might be ok if at shutdown)
+"java.lang.IllegalStateException: Shutdown in progress
+	at java.base/java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82) ~[na:na]
+	at java.base/java.lang.Runtime.removeShutdownHook(Runtime.java:243) ~[na:na]
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70) ~[netflix-commons-util-0.3.0.jar:0.3.0]
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:93) ~[spring-cloud-context-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:142) ~[spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+"2021-01-07 17:27:45 [RMI TCP Connection(9)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+""2021-01-07 17:27:49 [RMI TCP Connection(9)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Unregistering ...
+""2021-01-07 17:27:49 [RMI TCP Connection(9)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080 - deregister  status: 200
+""2021-01-07 17:27:49 [RMI TCP Connection(9)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+""2021-01-07 17:28:07 [main]  INFO  c.c.s.Task3ZuulProxyApiGateWayApplication -The following profiles are active: dev
+""2021-01-07 17:28:08 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-07 17:28:08 [main]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+""2021-01-07 17:28:08 [main]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=3da12aeb-3654-31a1-851c-b34f8d42d4a3
+""2021-01-07 17:28:08 [main]  INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-07 17:28:08 [main]  INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-07 17:28:08 [main]  INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-07 17:28:09 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-07 17:28:09 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-07 17:28:09 [main]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-07 17:28:09 [main]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-07 17:28:09 [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [After]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Before]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Between]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Cookie]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Header]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Host]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Method]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Path]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Query]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [ReadBody]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [RemoteAddr]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Weight]
+""2021-01-07 17:28:10 [main]  INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+""2021-01-07 17:28:10 [main]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-07 17:28:11 [main]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-07 17:28:11 [main]  WARN  o.s.c.c.l.r.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger -You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-07 17:28:11 [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-07 17:28:11 [main]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-07 17:28:11 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-07 17:28:11 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-07 17:28:11 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-07 17:28:11 [main]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-07 17:28:12 [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Disable delta property : false
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Application is null : false
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Application version is -1: true
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -The response status is 200
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 30
+""2021-01-07 17:28:12 [main]  INFO  c.n.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1610020692610 with initial instances count: 3
+""2021-01-07 17:28:12 [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application CC-ZUULPROXYAPIGATEWAY with eureka with status UP
+""2021-01-07 17:28:12 [main]  INFO  c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1610020692615, current=UP, previous=STARTING]
+""2021-01-07 17:28:12 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080: registering service...
+""2021-01-07 17:28:12 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080 - registration status: 204
+""2021-01-07 17:28:12 [main]  INFO  o.s.b.w.e.netty.NettyWebServer -Netty started on port(s): 8080
+""2021-01-07 17:28:12 [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8080
+""2021-01-07 17:28:13 [main]  INFO  c.c.s.Task3ZuulProxyApiGateWayApplication -Started Task3ZuulProxyApiGateWayApplication in 7.157 seconds (JVM running for 8.33)
+""2021-01-07 17:28:13 [main]  INFO  c.c.s.Task3ZuulProxyApiGateWayApplication -*****ZuulProxy APIGateway Application Has Started******
+""2021-01-07 17:28:20 [reactor-http-nio-2]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-CONSUMERUSERSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:28:20 [reactor-http-nio-2]  INFO  c.n.u.c.ShutdownEnabledTimer -Shutdown hook installed for: NFLoadBalancer-PingTimer-CC-CONSUMERUSERSERVICE
+""2021-01-07 17:28:20 [reactor-http-nio-2]  INFO  c.n.loadbalancer.BaseLoadBalancer -Client: CC-CONSUMERUSERSERVICE instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CC-CONSUMERUSERSERVICE,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+""2021-01-07 17:28:20 [reactor-http-nio-2]  INFO  c.n.l.DynamicServerListLoadBalancer -Using serverListUpdater PollingServerListUpdater
+""2021-01-07 17:28:20 [reactor-http-nio-2]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-CONSUMERUSERSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:28:20 [reactor-http-nio-2]  INFO  c.n.l.DynamicServerListLoadBalancer -DynamicServerListLoadBalancer for client CC-CONSUMERUSERSERVICE initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CC-CONSUMERUSERSERVICE,current list of Servers=[ANNAPURNA:9090],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:ANNAPURNA:9090;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@66911b02
+""2021-01-07 17:28:21 [PollingServerListUpdater-0]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-CONSUMERUSERSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:33:12 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:38:12 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:40:24 [reactor-http-nio-3]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-STUDENTSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:40:24 [reactor-http-nio-3]  INFO  c.n.u.c.ShutdownEnabledTimer -Shutdown hook installed for: NFLoadBalancer-PingTimer-CC-STUDENTSERVICE
+""2021-01-07 17:40:24 [reactor-http-nio-3]  INFO  c.n.loadbalancer.BaseLoadBalancer -Client: CC-STUDENTSERVICE instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CC-STUDENTSERVICE,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+""2021-01-07 17:40:24 [reactor-http-nio-3]  INFO  c.n.l.DynamicServerListLoadBalancer -Using serverListUpdater PollingServerListUpdater
+""2021-01-07 17:40:24 [reactor-http-nio-3]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-STUDENTSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:40:24 [reactor-http-nio-3]  INFO  c.n.l.DynamicServerListLoadBalancer -DynamicServerListLoadBalancer for client CC-STUDENTSERVICE initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CC-STUDENTSERVICE,current list of Servers=[ANNAPURNA:9091],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:ANNAPURNA:9091;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@58f65244
+""2021-01-07 17:40:25 [PollingServerListUpdater-0]  INFO  c.n.config.ChainedDynamicProperty -Flipping property: CC-STUDENTSERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+""2021-01-07 17:43:12 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:48:12 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:53:12 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:53:17 [RMI TCP Connection(29)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-07 17:53:17 [RMI TCP Connection(29)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application CC-ZUULPROXYAPIGATEWAY with eureka with status DOWN
+""2021-01-07 17:53:17 [RMI TCP Connection(29)-127.0.0.1]  ERROR c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1610022197585, current=DOWN, previous=UP]
+""2021-01-07 17:53:17 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080: registering service...
+""2021-01-07 17:53:17 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-ZUULPROXYAPIGATEWAY/ANNAPURNA:CC-ZUULPROXYAPIGATEWAY:8080 - registration status: 204
+""2021-01-07 17:53:17 [Thread-9]  INFO  c.n.l.PollingServerListUpdater -Shutting down the Executor Pool for PollingServerListUpdater
+""2021-01-07 17:53:17 [RMI TCP Connection(29)-127.0.0.1]  INFO  c.n.u.c.ShutdownEnabledTimer -Shutdown hook removed for: NFLoadBalancer-PingTimer-CC-STUDENTSERVICE
+""2021-01-07 17:53:17 [RMI TCP Connection(29)-127.0.0.1]  INFO  c.n.u.c.ShutdownEnabledTimer -Exception caught (might be ok if at shutdown)
+"java.lang.IllegalStateException: Shutdown in progress
+	at java.base/java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82) ~[na:na]
+	at java.base/java.lang.Runtime.removeShutdownHook(Runtime.java:243) ~[na:na]
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70) ~[netflix-commons-util-0.3.0.jar:0.3.0]
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:93) ~[spring-cloud-context-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:142) ~[spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+"2021-01-07 17:53:17 [RMI TCP Connection(29)-127.0.0.1]  INFO  c.n.u.c.ShutdownEnabledTimer -Shutdown hook removed for: NFLoadBalancer-PingTimer-CC-CONSUMERUSERSERVICE
+""2021-01-07 17:53:17 [RMI TCP Connection(29)-127.0.0.1]  INFO  c.n.u.c.ShutdownEnabledTimer -Exception caught (might be ok if at shutdown)
+"java.lang.IllegalStateException: Shutdown in progress
+	at java.base/java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82) ~[na:na]
+	at java.base/java.lang.Runtime.removeShutdownHook(Runtime.java:243) ~[na:na]
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70) ~[netflix-commons-util-0.3.0.jar:0.3.0]
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:93) ~[spring-cloud-context-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:142) ~[spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+"2021-01-07 17:53:19 [RMI TCP Connection(29)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+"

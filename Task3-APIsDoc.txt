@@ -1,0 +1,80 @@
+****EurekaServiceRegistry****
+===========================
+http://localhost:8761
+
+
+*****CloudConfigServerGitHub****
+===============================
+spring.application.name=CC-CLOUDCONFIGSERVER
+
+http://localhost:8081
+
+
+******StudentService*****(Producer)
+========================
+spring.application.name=CC-STUDENTSERVICE
+
+http://localhost:9091/studentservice/save
+http://localhost:9091/studentservice/all
+http://localhost:9091/studentservice/one/1
+http://localhost:9091/studentservice/remove/1
+http://localhost:9091/studentservice/update
+
+[
+    {
+        "studentId": 1,
+        "studentName": "sivakumar",
+        "studentCourse": "boot",
+        "studentFee": 5200
+    }
+]
+
+*******ConsumerUserService******(Consumer)
+===========================================
+spring.application.name=CC-CONSUMERUSERSERVICE
+
+http://localhost:9090/consumeruserservice/save
+http://localhost:9090/consumeruserservice/login
+http://localhost:9090/consumeruserservice/allstudentdata
+
+{
+ "userId":1,
+"userName":"siva",
+"userPassword":"test@123",
+"userMail":"siva.muluguri@gmail.com",
+"userContact":8142651855,
+"userRoles":[
+	"ADMIN","USER"
+  ]
+}
+--------------------------------------------
+{
+"uname":"siva",
+"upassword":"test@123"
+}
+
+******ZuulProxyAPIGateWay*****
+==============================
+http://localhost:8080
+
+spring.application.name=CC-ZUULPROXYAPIGATEWAY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

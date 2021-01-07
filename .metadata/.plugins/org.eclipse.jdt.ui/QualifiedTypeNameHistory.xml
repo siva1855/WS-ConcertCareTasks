@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.concertcare.sivatask.service.UserService"/>
-    <fullyQualifiedTypeName name="com.concertcare.sivatask.feignclient.UserFeignClient"/>
     <fullyQualifiedTypeName name="com.concertcare.sivatask.vo.DepartmentVO"/>
     <fullyQualifiedTypeName name="com.concertcare.sivatask.template.UserDepartmentResponseTemplate"/>
     <fullyQualifiedTypeName name="com.concertcare.sivatask.repository.DepartmentRepository"/>
@@ -18,8 +16,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
@@ -57,7 +53,11 @@
     <fullyQualifiedTypeName name="com.concertcare.sivatask.repository.UserRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="com.concertcare.sivatask.model.Role"/>
-    <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="com.concertcare.sivatask.feignclient.StudentFeignClient"/>
+    <fullyQualifiedTypeName name="com.concertcare.sivatask.vo.StudentVO"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,352 @@
+"2021-01-07 17:09:50 [restartedMain]  INFO  c.c.s.Task3StudentServiceApplication -The following profiles are active: dev
+""2021-01-07 17:09:52 [restartedMain]  INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-01-07 17:09:52 [restartedMain]  INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 176ms. Found 1 JPA repository interfaces.
+""2021-01-07 17:09:52 [restartedMain]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-07 17:09:52 [restartedMain]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=863f230c-331b-3c5b-bed5-512ce02c4cc6
+""2021-01-07 17:09:53 [restartedMain]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9091 (http)
+""2021-01-07 17:09:53 [restartedMain]  INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-01-07 17:09:53 [restartedMain]  INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.41]
+""2021-01-07 17:09:53 [restartedMain]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-01-07 17:09:53 [restartedMain]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 2620 ms
+""2021-01-07 17:09:53 [restartedMain]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-07 17:09:53 [restartedMain]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-07 17:09:53 [restartedMain]  INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@41eda299
+""2021-01-07 17:09:53 [restartedMain]  INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-01-07 17:09:54 [restartedMain]  INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.4.25.Final
+""2021-01-07 17:09:54 [restartedMain]  INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-01-07 17:09:54 [restartedMain]  INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-01-07 17:09:54 [restartedMain]  INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-01-07 17:09:54 [restartedMain]  INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2021-01-07 17:09:56 [restartedMain]  INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-01-07 17:09:56 [restartedMain]  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-01-07 17:09:56 [restartedMain]  INFO  o.s.b.d.a.OptionalLiveReloadServer -LiveReload server is running on port 35729
+""2021-01-07 17:09:57 [restartedMain]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-07 17:09:57 [restartedMain]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-07 17:09:57 [restartedMain]  WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-01-07 17:09:57 [restartedMain]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-07 17:09:58 [restartedMain]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-07 17:09:58 [restartedMain]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-07 17:09:58 [restartedMain]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-07 17:09:58 [restartedMain]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-07 17:09:58 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-07 17:09:58 [restartedMain]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-07 17:09:58 [restartedMain]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Disable delta property : false
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Application is null : false
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Application version is -1: true
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -The response status is 200
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 30
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.n.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1610019599800 with initial instances count: 1
+""2021-01-07 17:09:59 [restartedMain]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application CC-STUDENTSERVICE with eureka with status UP
+""2021-01-07 17:09:59 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1610019599804, current=UP, previous=STARTING]
+""2021-01-07 17:09:59 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-STUDENTSERVICE/ANNAPURNA:CC-STUDENTSERVICE:9091: registering service...
+""2021-01-07 17:09:59 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-STUDENTSERVICE/ANNAPURNA:CC-STUDENTSERVICE:9091 - registration status: 204
+""2021-01-07 17:09:59 [restartedMain]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 9091 (http) with context path ''
+""2021-01-07 17:09:59 [restartedMain]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 9091
+""2021-01-07 17:10:00 [restartedMain]  INFO  c.c.s.Task3StudentServiceApplication -Started Task3StudentServiceApplication in 10.398 seconds (JVM running for 11.712)
+""2021-01-07 17:10:00 [restartedMain]  INFO  c.c.s.Task3StudentServiceApplication -*****StudentService Application Has Started******
+""2021-01-07 17:12:36 [RMI TCP Connection(5)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-01-07 17:12:36 [RMI TCP Connection(5)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+""2021-01-07 17:12:36 [RMI TCP Connection(5)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 12 ms
+""2021-01-07 17:14:59 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:17:03 [DiscoveryClient-HeartbeatExecutor-0]  INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: no further information stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1461)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 26 more
+
+""2021-01-07 17:17:03 [DiscoveryClient-HeartbeatExecutor-0]  WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+""2021-01-07 17:17:04 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: no further information stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:196)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:172)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1535)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1502)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 more
+
+""2021-01-07 17:17:04 [DiscoveryClient-CacheRefreshExecutor-0]  WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application CC-STUDENTSERVICE with eureka with status DOWN
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  ERROR c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1610020025680, current=DOWN, previous=UP]
+""2021-01-07 17:17:05 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-STUDENTSERVICE/ANNAPURNA:CC-STUDENTSERVICE:9091: registering service...
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-01-07 17:17:05 [RMI TCP Connection(12)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+""2021-01-07 17:18:43 [restartedMain]  INFO  c.c.s.Task3StudentServiceApplication -The following profiles are active: dev
+""2021-01-07 17:18:44 [restartedMain]  INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-01-07 17:18:45 [restartedMain]  INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 171ms. Found 1 JPA repository interfaces.
+""2021-01-07 17:18:45 [restartedMain]  WARN  o.s.boot.actuate.endpoint.EndpointId -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2021-01-07 17:18:45 [restartedMain]  INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=863f230c-331b-3c5b-bed5-512ce02c4cc6
+""2021-01-07 17:18:46 [restartedMain]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9091 (http)
+""2021-01-07 17:18:46 [restartedMain]  INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-01-07 17:18:46 [restartedMain]  INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.41]
+""2021-01-07 17:18:46 [restartedMain]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-01-07 17:18:46 [restartedMain]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 2506 ms
+""2021-01-07 17:18:46 [restartedMain]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-07 17:18:46 [restartedMain]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-07 17:18:46 [restartedMain]  INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@34ac0cfd
+""2021-01-07 17:18:46 [restartedMain]  INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-01-07 17:18:46 [restartedMain]  INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.4.25.Final
+""2021-01-07 17:18:46 [restartedMain]  INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-01-07 17:18:47 [restartedMain]  INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-01-07 17:18:47 [restartedMain]  INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-01-07 17:18:47 [restartedMain]  INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2021-01-07 17:18:50 [restartedMain]  INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-01-07 17:18:50 [restartedMain]  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-01-07 17:18:50 [restartedMain]  INFO  o.s.b.d.a.OptionalLiveReloadServer -LiveReload server is running on port 35729
+""2021-01-07 17:18:51 [restartedMain]  WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+""2021-01-07 17:18:51 [restartedMain]  INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2021-01-07 17:18:51 [restartedMain]  WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-01-07 17:18:51 [restartedMain]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-07 17:18:52 [restartedMain]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -Eureka HTTP Client uses Jersey
+""2021-01-07 17:18:52 [restartedMain]  WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2021-01-07 17:18:52 [restartedMain]  INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+""2021-01-07 17:18:52 [restartedMain]  INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+""2021-01-07 17:18:52 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+""2021-01-07 17:18:52 [restartedMain]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+""2021-01-07 17:18:52 [restartedMain]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+""2021-01-07 17:18:52 [restartedMain]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+""2021-01-07 17:18:52 [restartedMain]  INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Disable delta property : false
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Application is null : false
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Application version is -1: true
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -The response status is 200
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 30
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.n.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1610020133674 with initial instances count: 1
+""2021-01-07 17:18:53 [restartedMain]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application CC-STUDENTSERVICE with eureka with status UP
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1610020133678, current=UP, previous=STARTING]
+""2021-01-07 17:18:53 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-STUDENTSERVICE/ANNAPURNA:CC-STUDENTSERVICE:9091: registering service...
+""2021-01-07 17:18:53 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-STUDENTSERVICE/ANNAPURNA:CC-STUDENTSERVICE:9091 - registration status: 204
+""2021-01-07 17:18:53 [restartedMain]  INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 9091 (http) with context path ''
+""2021-01-07 17:18:53 [restartedMain]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 9091
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.c.s.Task3StudentServiceApplication -Started Task3StudentServiceApplication in 11.525 seconds (JVM running for 12.931)
+""2021-01-07 17:18:53 [restartedMain]  INFO  c.c.s.Task3StudentServiceApplication -*****StudentService Application Has Started******
+""2021-01-07 17:19:35 [RMI TCP Connection(4)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-01-07 17:19:35 [RMI TCP Connection(4)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+""2021-01-07 17:19:35 [RMI TCP Connection(4)-127.0.0.1]  INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 11 ms
+""2021-01-07 17:23:53 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:28:53 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:33:53 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:38:53 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:43:53 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:46:34 [http-nio-9091-exec-8]  WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `com.concertcare.sivatask.model.Student` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.concertcare.sivatask.model.Student` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 2, column: 1]]
+""2021-01-07 17:47:21 [http-nio-9091-exec-9]  WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `com.concertcare.sivatask.model.Student` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.concertcare.sivatask.model.Student` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 2, column: 1]]
+""2021-01-07 17:48:53 [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+""2021-01-07 17:49:03 [http-nio-9091-exec-10]  WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `com.concertcare.sivatask.model.Student` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.concertcare.sivatask.model.Student` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 2, column: 1]]
+""2021-01-07 17:51:40 [http-nio-9091-exec-3]  WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `com.concertcare.sivatask.model.Student` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.concertcare.sivatask.model.Student` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 2, column: 1]]
+""2021-01-07 17:53:28 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: no further information stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:196)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:172)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1535)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1502)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 more
+
+""2021-01-07 17:53:28 [DiscoveryClient-HeartbeatExecutor-0]  INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: no further information stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1461)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 26 more
+
+""2021-01-07 17:53:28 [DiscoveryClient-CacheRefreshExecutor-0]  WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+""2021-01-07 17:53:28 [DiscoveryClient-HeartbeatExecutor-0]  WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+""2021-01-07 17:53:29 [RMI TCP Connection(40)-127.0.0.1]  INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-01-07 17:53:29 [RMI TCP Connection(40)-127.0.0.1]  INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application CC-STUDENTSERVICE with eureka with status DOWN
+""2021-01-07 17:53:29 [RMI TCP Connection(40)-127.0.0.1]  ERROR c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1610022209965, current=DOWN, previous=UP]
+""2021-01-07 17:53:29 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_CC-STUDENTSERVICE/ANNAPURNA:CC-STUDENTSERVICE:9091: registering service...
+""2021-01-07 17:53:29 [RMI TCP Connection(40)-127.0.0.1]  INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+""2021-01-07 17:53:29 [RMI TCP Connection(40)-127.0.0.1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2021-01-07 17:53:30 [RMI TCP Connection(40)-127.0.0.1]  INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-01-07 17:53:30 [RMI TCP Connection(40)-127.0.0.1]  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-01-07 17:53:30 [RMI TCP Connection(40)-127.0.0.1]  INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-01-07 17:53:30 [RMI TCP Connection(40)-127.0.0.1]  INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-01-07 17:53:30 [RMI TCP Connection(40)-127.0.0.1]  INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+"
