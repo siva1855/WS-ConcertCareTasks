@@ -1,8 +1,0 @@
-package com.concertcare.sivatask.config;
-
-import org.springframework.security.web.AuthenticationEntryPoint;
-import org.springframework.security.web.authentication.AuthenticationEntryPointFailureHandler;
-
-public class InvalidAuthenticationEntryPoint implements AuthenticationEntryPoint {
-
-}

@@ -1,5 +1,0 @@
-package com.concertcare.sivatask.repsitory;
-
-public interface UserRepository {
-
-}

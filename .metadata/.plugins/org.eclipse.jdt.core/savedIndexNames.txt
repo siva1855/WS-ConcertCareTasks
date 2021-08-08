@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+D:\JavaWorkspaces\WS-ConcertCareApplications\.metadata\.plugins\org.eclipse.jdt.core
-4132004674.index
-1123897655.index

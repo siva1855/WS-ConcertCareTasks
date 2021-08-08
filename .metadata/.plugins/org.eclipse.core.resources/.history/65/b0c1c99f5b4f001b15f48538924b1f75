@@ -1,5 +1,0 @@
-package com.concertcare.sivatask.service;
-
-public interface UserService {
-	public Integer saveUser(User user);
-}
